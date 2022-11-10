@@ -71,7 +71,7 @@ def build_date_range(last_date):
     dates = []
     check_date = last_date
 
-    while check_date < date.today() and len(dates) < 20:
+    while check_date < date.today() and len(dates) < 5:
         dates.append(check_date)
         check_date = check_date + timedelta(1)
     
