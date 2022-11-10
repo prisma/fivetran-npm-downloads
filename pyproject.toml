@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fivetran-npm-downloads"
+version = "0.1.0"
+description = ""
+authors = ["Lewis Davies <davies@prisma.io>"]
+readme = "README.md"
+packages = [{include = "fivetran_npm_downloads"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+munch = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
