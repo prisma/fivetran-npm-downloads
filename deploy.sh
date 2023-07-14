@@ -1,5 +1,7 @@
-poetry install
-cd .venv
-zip -r ../deployment-package.zip .
+mkdir package
+pip install --target ./package requests munch
+cd package
+zip -r ../my_deployment_package.zip .
 cd ..
-zip -g deployment-package.zip lambda_function.py
+zip my_deployment_package.zip lambda_function.py
+rm -rf package

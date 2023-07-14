@@ -7,7 +7,7 @@ The connector was built for AWS but will probably also work on Google Cloud Func
 ## Setup
 1. Add a new connector in Fivetran by clicking _Add Connector_ and searching for _AWS Lambda_.
 1. Follow steps 1, 2 and 3 in the [setup guide](https://fivetran.com/docs/functions/aws-lambda/setup-guide).
-1. Open a new terminal and run `sh deploy.sh` to generate `deployment-package.zip`.
+1. Open a new terminal and run `sh deploy.sh` to generate `my_deployment_package.zip`.
 1. Follow step 4 of the setup guide, except:
     - Choose _Author from scratch_ when creating a new Lambda.
     - Upload the zip file when prompted to add your code.
